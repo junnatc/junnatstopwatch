@@ -1,0 +1,91 @@
+<style media="screen">
+@font-face {
+    font-family: 'hunger_gamesregular';
+    src: url('hunger_games-webfont.woff2') format('woff2'),
+         url('hunger_games-webfont.woff') format('woff');
+
+}
+@font-face {
+    font-family: 'bogarts_metalregular';
+    src: url('bogartsmetal-mvbee-webfont.woff2') format('woff2'),
+         url('bogartsmetal-mvbee-webfont.woff') format('woff');
+  
+
+}
+      *,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+h1{
+font-family: 'bogarts_metalregular';
+text-align: center;
+padding:90px 0 0;
+font-size: 55pt;
+color: maroon;
+}
+body{
+  background-image:url(hunger.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center ;
+  background-size: cover;
+}
+.container{
+    background-color: #ffffff;
+    width: 40%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    padding: 20px 0;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+.timerDisplay{
+    position: relative;
+    width: 92%;
+    background: #ffffff;
+    left: 4%;
+    padding: 40px 0;
+	font-family: 'bogarts_metalregular';
+    color: black;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(0,139,253,0.25);
+}
+.buttons{
+    width: 90%;
+    margin: 60px auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+.buttons button{
+    width: 120px;
+    height: 45px;
+    background-color: GrayText;
+    color: #ffffff;
+    border: none;
+	font-family: 'bogarts_metalregular';  
+	font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.buttons button:nth-last-child(2){
+  background-color: black;
+ 
+}
+.buttons button:nth-last-child(1){
+  background-color: GrayText;
+  
+}
+
+    </style>
